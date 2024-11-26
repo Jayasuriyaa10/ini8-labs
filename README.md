@@ -11,8 +11,6 @@ This is a simple web application built using Flask that allows users to perform 
 ## Installation
 
 - `git clone https://github.com/Jayasuriyaa10/ini8-labs.git`
-    
-- `cd IniLAbs`
 
 Now install Flask and MySQL connector using:
    - `pip install Flask`
