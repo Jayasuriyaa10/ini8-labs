@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Entry</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        h2 {
+            text-align: center;
+            color: #007bff;
+        }
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="date"],
+        input[type="tel"],
+        button,
+        .back-btn {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            text-align: center;
+            cursor: pointer;
+        }
+        button {
+            background-color: #007bff;
+            color: #fff;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .back-btn {
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+        }
+        .back-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h2>Update Entry</h2>
+    <form action="/update" method="POST">
+        <label for="id">ID:</label>
+        <input type="text" id="id" name="ID" required><br><br>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="Name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="Email" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="DateOfBirth"><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="PhoneNumber"><br><br>
+
+        <button type="submit">Update Entry</button>
+    </form>
+    <center><a href="/" class="back-btn">Back to Homepage</a></center>
+</body>
+</html>
