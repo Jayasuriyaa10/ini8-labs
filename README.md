@@ -10,7 +10,7 @@ This is a simple web application built using Flask that allows users to perform 
 
 ## Installation
 
-- `git clone https://github.com/JaiPrasanth077/IniLAbs.git`
+- `git clone https://github.com/Jayasuriyaa10/ini8-labs.git`
     
 - `cd IniLAbs`
 
